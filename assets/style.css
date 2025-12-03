@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #0f172a; /* Garante que o fundo da página inteira seja escuro */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Melhora a fonte global */
+}
+
+/* Remove a barra de rolagem horizontal se algo vazar um pouco */
+html,
+body {
+  overflow-x: hidden;
+}
