@@ -117,7 +117,6 @@ Mensagens de inviabilidade:
   - Regras de limpeza/consolidação: `data_manager.py`.
   - Restrições/objetivo da otimização: `optimizer.py`.
   - Layout e callbacks: `app.py`.
-- Para suporte a quantidades estritamente inteiras no solver, considere migrar para um solver de programação inteira (ex.: PuLP/OR-Tools).
 
 ---
 
