@@ -118,5 +118,3 @@ Mensagens de inviabilidade:
   - Layout e callbacks: `app.py`.
 
 ---
-
-Qualquer dúvida ou melhoria desejada (novas restrições de negócio, exportação de plano para Excel/CSV, etc.), entre em contato ou abra uma issue.
