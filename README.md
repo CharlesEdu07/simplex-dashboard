@@ -68,7 +68,7 @@ Exemplos: `templates/servicos_feitos.xlsx`, `templates/servicos_feitos_2.xlsx`.
 
 ## Como Usar o Dashboard
 1. Na barra lateral:
-   - Use "Carregar template" para escolher o arquivo de metas (obrigatório).
+   - Use "Carregar template" para escolher o arquivo com os dados de serviços (obrigatório).
    - Use "Carregar mês atual" para enviar os realizados (opcional).
    - Informe "Horas disponíveis no mês" (por padrão `360`).
 2. Clique em `CALCULAR OTIMIZAÇÃO`.
@@ -109,7 +109,6 @@ Mensagens de inviabilidade:
 - "INVIÁVEL": aumente as horas disponíveis ou reduza `minimo` em serviços com grande tempo.
 - Erro de leitura: confirme extensão (`.csv`, `.xlsx`, `.xls`) e se há cabeçalhos corretos.
 - Gráficos vazios: ocorre quando nenhum realizado foi informado; é normal.
-- Performance: para bases muito grandes, considere manter tipos numéricos limpos e evitar células formatadas com símbolos.
 
 ## Desenvolvimento
 - O projeto está organizado em módulos simples; alterações comuns:
